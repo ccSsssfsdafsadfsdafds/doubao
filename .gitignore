@@ -1,0 +1,31 @@
+# Build artifacts
+doubao_tool
+doubao_tool.exe
+*.test
+*.out
+*.prof
+coverage.out
+dist/
+build/
+
+# Local secrets and sessions
+doubao_web_cookies.json
+*cookies*.json
+*session*.json
+.env
+.env.*
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+.DS_Store
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Generated native libraries
+vendor/unicorn/lib/
